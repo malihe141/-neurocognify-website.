@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroCognify - علم مغز با قدرت هوش مصنوعی</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/Vazir-Regular.woff2')  format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        :root {
+            --primary: #6a1b9a;
+            --secondary: #1565c0;
+            --accent: #ff6d00;
+        }
+        body {
+            font-family: 'Vazir', Tahoma, Arial, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 100px 0;
+        }
+        .btn-primary {
+            background-color: var(--accent);
+            border-color: var(--accent);
+        }
+        .feature-card {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--primary);">
+        <div class="container">
+            <a class="navbar-brand" href="#">NeuroCognify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">درباره ما</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">خدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#podcast">پادکست</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#assessment">ارزیابی رایگان</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تماس با ما</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">علم مغز با قدرت هوش مصنوعی برای درخشش روزمره</h1>
+            <p class="lead my-4">علم ذهن خود را با ابزارهایی که علوم شناختی عصبی را کاربردی و قابل دسترس می‌کنند، کشف کنید.</p>
+            <a href="#assessment" class="btn btn-primary btn-lg">ارزیابی رایگان را انجام دهید</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">درباره NeuroCognify</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>NeuroCognify علوم شناختی عصبی را برای زندگی روزمره قابل دسترس و کاربردی می‌کند. ماموریت ما دموکراتیزه کردن علم مغز است، کمک به افراد برای درک و بهینه‌سازی عملکرد شناختی خود از طریق رویکردهای مبتنی بر شواهد.</p>
+                    <p>بر اساس اصول علمی و با قدرت هوش مصنوعی، ما ابزارها، محتوا و آموزش‌هایی را برای تقویت توانایی‌های شناختی و عملکرد ذهنی شما ارائه می‌دهیم.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>ارزش‌های ما:</h4>
+                    <ul>
+                        <li><strong>صداقت علمی:</strong> رویکردهای مبتنی بر شواهد برای تقویت شناختی</li>
+                        <li><strong>دسترسی‌پذیری:</strong> قابل فهم کردن علوم عصبی برای همه</li>
+                        <li><strong>نوآوری:</strong> استفاده از هوش مصنوعی برای شخصی‌سازی توسعه شناختی</li>
+                        <li><strong>رویکرد کل‌نگر:</strong> پرداختن به تمام جنبه‌های عملکرد شناختی</li>
+                        <li><strong>عملکرد اخلاقی:</strong> استفاده شفاف و مسئولانه از علوم عصبی</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">خدمات ما</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card bg-white">
+                        <h4 style="color: var(--primary);">ارزیابی شناختی</h4>
+                        <p>پروفایل شناختی خود را با ابزارهای ارزیابی جامع ما کشف کنید. نقاط قوت و فرصت‌های بهبود را شناسایی کنید.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card bg-white">
+                        <h4 style="color: var(--primary);">تمرین مغز</h4>
+                        <p>پروتکل‌های آموزشی مبتنی بر شواهد طراحی شده برای تقویت عملکردهای شناختی خاص از طریق تمرینات و چالش‌های هدفمند.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card bg-white">
+                        <h4 style="color: var(--primary);">آموزش علوم عصبی</h4>
+                        <p>مسیرهای یادگیری ساختاریافته که مفاهیم علوم شناختی عصبی و کاربردهای عملی آنها در زندگی روزمره را آموزش می‌دهند.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="podcast" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">امواج مغزی: پادکست NeuroCognify</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h4>جایی که علوم عصبی با زندگی روزمره ملاقات می‌کند</h4>
+                    <p>پادکست ما دنیای شگفت‌انگیز علوم شناختی عصبی و کاربردهای عملی آن را بررسی می‌کند. هر قسمت شامل بینش‌های کارشناسی، آخرین تحقیقات و استراتژی‌های قابل اجرا برای بهینه‌سازی عملکرد مغز شما است.</p>
+                    <p>برای قسمت‌های هفتگی درباره تقویت حافظه، بهبود تمرکز، هوش هیجانی و موارد دیگر، به امواج مغزی مشترک شوید.</p>
+                    <a href="#" class="btn btn-primary">اکنون گوش دهید</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://via.placeholder.com/400x400.png?text=Podcast+Cover" alt="پادکست امواج مغزی" class="img-fluid rounded-circle" style="max-width: 300px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assessment" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">ارزیابی شناختی رایگان ما را انجام دهید</h2>
+            <p class="lead mb-4">نقاط قوت شناختی و زمینه‌های بهبود خود را با ارزیابی علمی طراحی شده ما کشف کنید.</p>
+            <a href="#" class="btn btn-primary btn-lg">شروع ارزیابی</a>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">تماس با ما</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="نام شما">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="ایمیل شما">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="پیام شما"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">ارسال پیام</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center text-white" style="background-color: var(--primary) ;">
+        <div class="container">
+            <p>© ۲۰۲۵ NeuroCognify. تمامی حقوق محفوظ است.</p>
+            <div class="social-links">
+                <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
